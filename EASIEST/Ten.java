@@ -21,20 +21,20 @@ public class Ten {
 
         switch (operation) {
             case '+':
-                int sum = num1 + num2;
-                System.out.println(sum);
+                System.out.println(num1 + num2);
                 break;
             case '-':
-                int difference = num1 - num2;
-                System.out.println(difference);
+                System.out.println(num1 - num2);
                 break;
             case '*':
-                int product = num1 * num2;
-                System.out.println(product);
+                System.out.println(num1 * num2);
                 break;
             case '/':
-                int divison = num1 / num2;
-                System.out.println(divison);
+                if (num2 == 0) {
+                    System.out.println("Cannot divide by zero");
+                } else {
+                    System.out.println(num1 / num2);
+                }
                 break;
             default:
                 System.out.println("Invalid Operation");
@@ -42,5 +42,4 @@ public class Ten {
         scanner.close();
     }
 }
-
 /* Dont forget to write break statement after each case */
