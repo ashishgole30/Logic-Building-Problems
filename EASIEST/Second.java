@@ -12,7 +12,7 @@ public class Second {
         System.out.print("Enter A Number:");
         int number = scanner.nextInt();
 
-        for (int i = 0; i <= number; i += 2) {
+        for (int i = 2; i <= number; i += 2) {
             System.out.print(i + " ");
         }
         scanner.close();
