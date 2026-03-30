@@ -11,6 +11,7 @@ public class Eight {
          * Example:
          * 153 → 1³ + 5³ + 3³ = 153 → true
          * 123 → false
+         * 370-> true
          */
 
         Scanner scanner = new Scanner(System.in);
